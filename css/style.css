@@ -1,19 +1,18 @@
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    font-size: 18px;
-}
-
-body {
-    flex-direction: column;
+    color: #f9faf8;
+    font-size: 1.8rem;
 }
 
 body > * {
     padding: 0 96px;
     display: flex;
-    color: white;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +22,7 @@ a {
 }
 
 button a {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 img {
@@ -52,16 +51,13 @@ button,
     background-color: #1F2937;
 }
 
-.header-color-white {
-    color: #f9faf8;
-}
-
 .text-color-gray {
     color: #E5E7EB;
 }
 
 .text-information {
     color: #64676d;
+    font-size: 1.8rem;
 }
 
 .header {
@@ -72,7 +68,7 @@ button,
 
 .header-logo {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 
@@ -100,12 +96,13 @@ button,
 
 .hero-image {
     margin: 0 auto;
+    min-width: 200px;
     max-width: 500px;
     flex-basis: 350px;
 }
 
 .hero-title {
-    font-size: 48px;
+    font-size: 4.8rem;
 }
 
 .hero-signup-button {
@@ -152,10 +149,9 @@ button,
 
 .container-quotes {
     background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
     min-height: 300px;
     flex-grow: 1;
+    padding: 0 48px;
 }
 
 .quote-container{
@@ -166,7 +162,7 @@ button,
 }
 .quote-text {
     color: #3b424b;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-style: italic;
 }
 
@@ -177,7 +173,7 @@ button,
 }
 
 .container-call {
-    height: 250px;
+    padding: 50px 96px;
 }
 
 .call-container {
@@ -185,10 +181,11 @@ button,
     justify-content: space-evenly;
     padding: 32px 64px;
     border-radius: 8px;
-    max-width: 700px;
+    max-width: 750px;
     gap: 16px 64px;
     flex-grow: 1;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .call-left {
@@ -198,9 +195,10 @@ button,
 }
 
 .call-text {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .footer {
     height: 72px;
+    padding: 0 8px;
 }
